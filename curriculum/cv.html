@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--========== BOX ICONS ==========-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+        />
+        <!--=========== FONT AWESOM ICONS ===============-->
+        <script src="https://kit.fontawesome.com/1242e5e86d.js" crossorigin="anonymous"></script>
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="shortcut icon" href="assets/img/cristian.jpg" type="image/x-icon" />
+        <title>Cristian Orrego CV</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Cristian</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home nav__icon"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i>Certified
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class="bx bx-link-external nav__icon"></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/cristian.jpg" alt="" class="home__img" />
+                                <h1 class="home__title">CRISTIAN <b>ORREGO</b></h1>
+                                <h3 class="home__profession">Systems Engineer</h3>
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a href="" target="_blank" class="home__button-movil"
+                                        >Download</a
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> Cartago Valle del Cauca -
+                                    Colombia
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i>
+                                    cristian.duquew@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i> 311 398 8094
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i
+                            class="bx bx-download generate-pdf"
+                            title="Generate PDF"
+                            id="resume-button"
+                        ></i>
+                    </section>
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Social</h2>
+
+                        <div class="social__container bd-grid">
+                            <a
+                                href="https://www.linkedin.com/in/cristianorrego/"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i class="bx bxl-linkedin-square social__icon"></i>
+                                @cristianorrego
+                            </a>
+                            <a
+                                href="https://www.instagram.com/cristianorregod"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i class="bx bxl-instagram social__icon"></i> @cristianorregod
+                            </a>
+                            <a
+                                href="https://www.facebook.com/cristianorregod/"
+                                target="_blank"
+                                class="social__link"
+                            >
+                                <i class="bx bxl-facebook social__icon"></i> @cristianorregod
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">
+                            I am a Systems Engineer with more than one year of experience in web
+                            development and IT administration. Provide solutions, work on team,
+                            leading projects, responsibility and respect for my work are some of the
+                            characteristics of my professional life.
+                        </p>
+                    </section>
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Technologist MECDICE
+                                        <a
+                                            href="https://miremingtonedu-my.sharepoint.com/:b:/g/personal/cristian_orrego_8342_miremingtonedu_onmicrosoft_com/EVereNS-PotMr5SccIqP5XABO1_DMU6mS_1wvfQSfNxIFQ?e=7d8wPL"
+                                            target="_blank"
+                                            class="social__link"
+                                            ><i class="bx bx-medal"></i
+                                        ></a>
+                                    </h3>
+                                    <span class="education__studies"
+                                        >National Leraning Service</span
+                                    >
+                                    <span class="education__year">2014 - 2016</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Systems Engineer
+                                        <a
+                                            href="https://miremingtonedu-my.sharepoint.com/:b:/g/personal/cristian_orrego_8342_miremingtonedu_onmicrosoft_com/EQ7mDSSqYl1HkCS72a9-hwcBE3aA_tsoFK6XdvorlGkI8w?e=gXtOCa"
+                                            target="_blank"
+                                            class="social__link"
+                                            ><i class="bx bx-medal"></i
+                                        ></a>
+                                    </h3>
+                                    <span class="education__studies"
+                                        >Remington University Corporation</span
+                                    >
+                                    <span class="education__year">2018 - 2021</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        Web Development
+                                        <a href="#" target="_blank" class="social__link"
+                                            ><i class="bx bx-medal"></i
+                                        ></a>
+                                    </h3>
+                                    <span class="education__studies">Udemy</span>
+                                    <span class="education__year">2019 - 2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Php
+                                    <i class="fab fa-php skills__icon"></i>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Html<i
+                                        class="fab fa-html5 skills__icon"
+                                    ></i>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Css<i
+                                        class="fab fa-css3-alt skills__icon"
+                                    ></i>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JavaScript<i
+                                        class="fab fa-js-square skills__icon"
+                                    ></i>
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Laravel<i
+                                        class="fab fa-laravel skills__icon"
+                                    ></i>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Vue<i
+                                        class="fab fa-vuejs skills__icon"
+                                    ></i>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> MySQL<i
+                                        class="fas fa-database skills__icon"
+                                    ></i>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Git
+                                    <i class="fab fa-git-alt skills__icon"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">IT Administrator</h3>
+                                    <span class="experience__company"
+                                        >From 2015 to 2016 | Universidad del Valle</span
+                                    >
+                                    <p class="experience__description">
+                                        I worked in the institution performing my work with
+                                        responsibility, helping to improve internet presence of the
+                                        entity redesigning the website.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">IT Administratror</h3>
+                                    <span class="experience__company"
+                                        >From 2016 to 2019 | La Sucursal Ferreteria</span
+                                    >
+                                    <p class="experience__description">
+                                        A company where I learned to manage a work team, delegating
+                                        functions to achieve a common goal, the systematization of
+                                        processes.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Computer Science Teacher</h3>
+                                    <span class="experience__company"
+                                        >From 2020 to 2021 | Colegio Técnico Comercial Diocesano
+                                        Santa María</span
+                                    >
+                                    <p class="experience__description">
+                                        In my work with the institution I have strengthened my
+                                        knowledge and skills, in addition to learning by teaching, I
+                                        have managed the institution's internet presence.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certified</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    IT Essentials
+                                    <a
+                                        href="https://miremingtonedu-my.sharepoint.com/:b:/g/personal/cristian_orrego_8342_miremingtonedu_onmicrosoft_com/EQ4r9FfbKRFDsC_QR316YkcBUhehDT_ymWFW5sK9JIbeaQ?e=w5HxRD"
+                                        target="_blank"
+                                        class="social__link"
+                                    >
+                                        <i class="bx bx-award"></i
+                                    ></a>
+                                </h3>
+                                <p class="certificated__description">
+                                    Function of computer components, their assembly and setting.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Version Control System (Git)
+                                    <a
+                                        href="https://miremingtonedu-my.sharepoint.com/:b:/g/personal/cristian_orrego_8342_miremingtonedu_onmicrosoft_com/EdtFdOTEn9hOp-_xp6TzLKkBnjRg0CFmOXOzoQvNHqSzhQ?e=5Vj8OM"
+                                        target="_blank"
+                                        class="social__link"
+                                    >
+                                        <i class="bx bx-award"></i
+                                    ></a>
+                                </h3>
+                                <p class="certificated__description">
+                                    Git and Github professional course for version management.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    Master en PHP
+                                    <a
+                                        href="https://miremingtonedu-my.sharepoint.com/:b:/g/personal/cristian_orrego_8342_miremingtonedu_onmicrosoft_com/EUB-DJwViqpIlZkh5zuzMY0BSFl4soGvOyL5-zF1MmBD7Q?e=aB8VVo"
+                                        target="_blank"
+                                        class="social__link"
+                                    >
+                                        <i class="bx bx-award"></i
+                                    ></a>
+                                </h3>
+                                <p class="certificated__description">
+                                    Web development course with the PHP Laravel framework.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Accountant</span>
+                                <h3 class="references__title">Sr. Paul Avendaño Poveda</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 318 231-7314</li>
+                                    <li>Email: paul@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Systems Engineer</span>
+                                <h3 class="references__title">Sr. Diego Fernando Castaño</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 315 347-8448</li>
+                                    <li>Email: diego.castano@uniremington.edu.co</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Spanish
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-football interests__icon"></i>
+                                <span class="interests__name">Football</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-camera interests__icon"></i>
+                                <span class="interests__name">Photography</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-book-open interests__icon"></i>
+                                <span class="interests__name">Reading</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bxs-plane-alt interests__icon"></i>
+                                <span class="interests__name">Travel</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
