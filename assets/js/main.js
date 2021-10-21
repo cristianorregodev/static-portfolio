@@ -58,7 +58,7 @@ let swiper = new Swiper(".portfolio__container", {
     loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
-        precEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
         el: ".swiper-pagination",
